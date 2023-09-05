@@ -34,6 +34,7 @@ header .heading {
 }
 
 .main-visual {
+  background-image: url(img/mv.jpg);
   width: 100%;
   height: 300px;
 }
