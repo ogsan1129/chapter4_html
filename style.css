@@ -10,7 +10,9 @@ a {
   text-decoration: none;
 }
 
-
+header, nav, h2, .main-visual, fooler {
+  font-family: Chalkduster, "Bradley Hand", Courier, "Segoe Print", sans-serif;
+}
 
 header{
   width: 90%;
@@ -226,4 +228,73 @@ footer {
 
 .footer-text {
   color: #fff;
+}
+
+@media screen and (max-width: 425px) {
+  header {
+    width: 100%;
+  }
+  
+  .nav-list {
+    width: 100%;
+  }
+  
+  .nav-list-item {
+    width: 100%;
+    margin: 0 0 10px 0;
+  }
+  
+  .sosial {
+    display: none;
+  }
+  
+  .main-visual-content {
+    width: 100%;
+  }
+  
+  main {
+    width: 100%;
+    display: block;
+  }
+  
+  .blog {
+    width: 100%;
+    margin: 0;
+  }
+  
+  .blog-box {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+  
+  .blog-image {
+    width: 49%;
+  }
+  
+  .blog-text {
+    width: 49%;
+    padding-top: 5px;
+  }
+  
+  .sideber {
+    width: 100%;
+  }
+  
+  .sideber-contents {
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+  
+  .instagram-box {
+    width: 48%;
+    padding-top: 48%;
+  }
+  
+  .instagram-box:nth-child(odd) {
+    margin-right: 4%;
+  }
+  
+  .pagination {
+    margin-bottom: 50px;
+  }
 }
